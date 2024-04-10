@@ -8,5 +8,10 @@ export default nuxt(
       unocss: true,
       formatters: true,
     },
+    {
+      rules: {
+        'vue/no-multiple-template-root': 'off',
+      },
+    },
   ),
 )
